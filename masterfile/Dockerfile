@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/openjdk-17:latest
+FROM registry.access.redhat.com/ubi8/openjdk-17:1.11
 ENV APP_HOME=/home/jboss APP_NAME=masterfile
 EXPOSE 8080
 WORKDIR ${APP_HOME}
